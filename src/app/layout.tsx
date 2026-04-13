@@ -1,0 +1,54 @@
+import type { Metadata } from 'next'
+import { DM_Sans, Syne } from 'next/font/google'
+import './globals.css'
+
+const fontSyne = Syne({
+  subsets: ['latin'],
+  variable: '--font-syne',
+  display: 'swap',
+  weight: ['400', '500', '600', '700', '800'],
+})
+
+const fontDmSans = DM_Sans({
+  subsets: ['latin'],
+  variable: '--font-dm-sans',
+  display: 'swap',
+  weight: ['300', '400', '500'],
+  style: ['normal', 'italic'],
+})
+
+export const metadata: Metadata = {
+  title: 'RESTRO — Smart Restaurant Management System',
+  description:
+    'RESTRO by Creative Garage is a cloud-based restaurant and table management system that streamlines operations, delights guests, and maximizes revenue.',
+  keywords: [
+    'restaurant management system',
+    'table management',
+    'POS system Pakistan',
+    'kitchen display system',
+    'Creative Garage',
+    'RESTRO',
+  ],
+  openGraph: {
+    title: 'RESTRO — Smart Restaurant Management System',
+    description:
+      'Cloud-based restaurant management for cafes, food courts & hospitality venues.',
+    type: 'website',
+  },
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html
+      lang="en"
+      className={`${fontSyne.variable} ${fontDmSans.variable}`}
+      suppressHydrationWarning
+    >
+      <body className="antialiased">{children}</body>
+    </html>
+  )
+}
