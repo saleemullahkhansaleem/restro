@@ -32,10 +32,10 @@ export default function PricingSection() {
           Pricing
         </div>
         <h2 className="reveal delay-100 font-display font-black text-[clamp(30px,3.5vw,48px)] tracking-tight text-[#0e0b1f] mb-4">
-          Simple, transparent pricing
+          Pricing Plan (Per Branch)
         </h2>
         <p className="reveal delay-200 text-[17px] text-[#3b3558] leading-[1.7]">
-          Per branch. No hidden fees. Scale up whenever you&apos;re ready.
+          One-time setup charges with monthly subscription charges per branch.
         </p>
       </div>
 
@@ -45,7 +45,7 @@ export default function PricingSection() {
         {/* ── Setup card ── */}
         <div className="reveal bg-white border border-brand-200/30 rounded-2xl p-10">
           <div className="font-display text-[11px] font-bold tracking-[0.12em] uppercase text-brand-400 mb-5">
-            One-Time Setup
+            One-Time Setup Charges
           </div>
 
           <div className="mb-1">
@@ -55,7 +55,7 @@ export default function PricingSection() {
             PKR 150,000
           </div>
           <p className="text-[13px] text-[#7a7090] mb-7">
-            Covers system setup, configuration, staff training & deployment
+            Includes system setup, configuration, staff training & deployment
           </p>
 
           <div className="h-px bg-brand-100 mb-6" />
@@ -102,7 +102,7 @@ export default function PricingSection() {
               PKR 25,000
             </div>
             <p className="text-[13px] text-white/45 mb-7">
-              RESTRO System License (base)
+              Base monthly license
             </p>
 
             <div className="h-px bg-white/10 mb-6" />
@@ -128,7 +128,7 @@ export default function PricingSection() {
             {/* Total */}
             <div className="flex items-center justify-between px-4 py-3.5 rounded-xl bg-white/[0.09] mb-7">
               <span className="text-[13px] font-semibold text-white/70">Total (all add-ons)</span>
-              <span className="font-display font-black text-[18px] text-brand-300">PKR 32,000 / mo</span>
+              <span className="font-display font-black text-[18px] text-brand-300">PKR 32,000 / month</span>
             </div>
 
             <a

@@ -20,7 +20,7 @@ const fontDmSans = DM_Sans({
 export const metadata: Metadata = {
   title: 'RESTRO — Smart Restaurant Management System',
   description:
-    'RESTRO by Creative Garage is a cloud-based restaurant and table management system that streamlines operations, delights guests, and maximizes revenue.',
+    'RESTRO by Creative Garage Pvt. Ltd. is an advanced, cloud-based restaurant and table management system that streamlines operations, improves customer experience, and maximizes efficiency.',
   keywords: [
     'restaurant management system',
     'table management',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'RESTRO — Smart Restaurant Management System',
     description:
-      'Cloud-based restaurant management for cafes, food courts & hospitality venues.',
+      'Advanced cloud-based management for restaurants, cafes, food courts, and hospitality venues.',
     type: 'website',
   },
 }

@@ -34,9 +34,9 @@ export default function HeroSection() {
       {/* ── Left: copy ── */}
       <div className="flex flex-col justify-center px-[7%] lg:px-[8%] py-20 lg:py-28">
         {/* Eyebrow */}
-        <div className="inline-flex items-center gap-2 bg-brand-100/70 text-brand-700 text-[12px] font-semibold tracking-[0.1em] uppercase px-4 py-1.5 rounded-full w-fit mb-7 border border-brand-200/60">
+        <div className="inline-flex items-center gap-2 bg-brand-100/70 text-brand-700 text-[12px] font-semibold tracking-widest uppercase px-4 py-1.5 rounded-full w-fit mb-7 border border-brand-200/60">
           <span className="w-2 h-2 rounded-full bg-brand-500 shrink-0" />
-          Smart Restaurant Management
+          Restaurant Management System
         </div>
 
         {/* Headline */}
@@ -70,10 +70,10 @@ export default function HeroSection() {
 
         {/* Description */}
         <p className="text-[18px] text-[#3b3558] leading-[1.7] mb-10 max-w-[500px]">
-          RESTRO is a cloud-based restaurant management platform by{' '}
+          RESTRO is an advanced, cloud-based restaurant and table management system by{' '}
           <strong className="font-medium text-[#0e0b1f]">Creative Garage</strong> — covering
-          table management, reservations, POS, kitchen display, inventory, and analytics in
-          one seamless system.
+          table management, reservations, order and billing workflows, kitchen display,
+          inventory, and analytics in one seamless platform.
         </p>
 
         {/* CTAs */}
@@ -107,14 +107,14 @@ export default function HeroSection() {
       </div>
 
       {/* ── Right: floor view mockup ── */}
-      <div className="relative hidden lg:flex items-center justify-center bg-gradient-to-br from-brand-900 via-[#1a0a3d] to-[#2d0f5e] overflow-hidden noise-overlay">
+      <div className="relative hidden lg:flex items-center justify-center bg-linear-to-br from-brand-900 via-[#1a0a3d] to-[#2d0f5e] overflow-hidden noise-overlay">
         {/* Glow blobs */}
         <div className="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-brand-400/20 blur-3xl pointer-events-none" />
         <div className="absolute -bottom-24 -left-24 w-72 h-72 rounded-full bg-magenta-500/15 blur-3xl pointer-events-none" />
 
         <div className="relative z-10 w-full max-w-[400px] mx-auto px-6">
           {/* Card */}
-          <div className="bg-white/[0.07] border border-white/[0.1] rounded-2xl p-7 backdrop-blur-sm">
+          <div className="bg-white/[0.07] border border-white/10 rounded-2xl p-7 backdrop-blur-sm">
             {/* Header */}
             <div className="flex items-center justify-between mb-6">
               <span className="font-display text-[13px] font-semibold text-white/50 uppercase tracking-widest">

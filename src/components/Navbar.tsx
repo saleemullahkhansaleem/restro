@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import { NAV_LINKS } from '@/lib/data'
 
@@ -26,15 +27,14 @@ export default function Navbar() {
     >
       {/* Logo */}
       <a href="#" className="flex items-center gap-3 shrink-0">
-        {/*
-          LOGO PLACEHOLDER
-          Replace the div below with:
-            <Image src="/logo.svg" alt="RESTRO by Creative Garage" width={140} height={36} />
-          after placing the logo file in /public/logo.svg
-        */}
-        <div className="w-9 h-9 rounded-[10px] bg-gradient-to-br from-brand-700 to-brand-400 flex items-center justify-center">
-          <span className="font-display font-black text-[13px] text-white tracking-tight">CG</span>
-        </div>
+        <Image
+          src="/logo.svg"
+          alt="RESTRO by Creative Garage"
+          width={40}
+          height={40}
+          className="w-10 h-10"
+          priority
+        />
         <span className="font-display font-black text-[22px] text-[#0e0b1f] tracking-tight leading-none">
           REST<span className="text-brand-500">RO</span>
         </span>

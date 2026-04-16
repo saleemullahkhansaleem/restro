@@ -14,11 +14,11 @@ export default function FeaturesSection() {
           Platform Modules
         </div>
         <h2 className="reveal delay-100 font-display font-black text-[clamp(30px,3.5vw,48px)] tracking-tight text-[#0e0b1f] mb-5">
-          Everything your restaurant needs, in one system
+          Everything your restaurant needs in one system
         </h2>
         <p className="reveal delay-200 text-[17px] text-[#3b3558] leading-[1.7]">
-          From table bookings to kitchen displays — RESTRO covers every touchpoint of your
-          restaurant operations across 9 fully integrated modules.
+          From live table management to digital and QR workflows, RESTRO streamlines
+          operations with 9 fully integrated modules.
         </p>
       </div>
 
@@ -28,16 +28,15 @@ export default function FeaturesSection() {
           <div
             key={feature.number}
             className={`
-              reveal group
+              reveal
               ${i === 0 ? '' : i < 4 ? 'delay-100' : i < 7 ? 'delay-200' : 'delay-300'}
               bg-cream border border-brand-200/30 rounded-2xl p-8
-              hover:-translate-y-1 hover:shadow-xl hover:shadow-brand-500/8
-              hover:border-brand-300/50 transition-all duration-300
+              transition-colors duration-300
               relative overflow-hidden cursor-default
             `}
           >
-            {/* Top accent line on hover */}
-            <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-brand-500 to-magenta-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-t-2xl" />
+            {/* Top accent line */}
+            <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-brand-500 to-magenta-500 opacity-50 rounded-t-2xl" />
 
             {/* Icon + number */}
             <div className="flex items-start justify-between mb-5">

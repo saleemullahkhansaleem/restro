@@ -32,7 +32,8 @@ export default function ContactSection() {
             Ready to transform your restaurant?
           </h2>
           <p className="reveal delay-200 text-[17px] text-[#3b3558] leading-[1.7] mb-10">
-            Book a free demo or drop us a message. Our team typically responds within one business day.
+            Book a free demo or send us your requirements. Our team helps restaurants,
+            cafes, food courts, and hospitality venues deploy RESTRO smoothly.
           </p>
 
           {/* Contact details */}

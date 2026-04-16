@@ -32,11 +32,11 @@ export default function WhySection() {
             Why Choose RESTRO
           </div>
           <h2 className="reveal delay-100 font-display font-black text-[clamp(30px,3.5vw,50px)] tracking-tight text-white mb-5 leading-tight">
-            Built for the way restaurants actually work
+            Built for fast-paced F&B environments
           </h2>
           <p className="reveal delay-200 text-[17px] text-white/55 leading-[1.7]">
-            Developed by Creative Garage — a team that understands the pace, pressure, and
-            precision required in F&B operations.
+            Developed by Creative Garage Pvt. Ltd. to deliver secure, reliable, and
+            customizable operations for restaurants, cafes, food courts, and hospitality venues.
           </p>
         </div>
 
@@ -48,9 +48,8 @@ export default function WhySection() {
               className={`
                 reveal
                 ${i < 2 ? '' : i < 4 ? 'delay-100' : 'delay-200'}
-                group bg-white/[0.06] border border-white/[0.09] rounded-2xl p-7
-                hover:bg-white/[0.1] hover:border-brand-400/30 hover:-translate-y-1
-                transition-all duration-300 cursor-default
+                bg-white/[0.06] border border-white/[0.09] rounded-2xl p-7
+                transition-colors duration-300 cursor-default
               `}
             >
               <span className="text-[28px] block mb-5">{card.icon}</span>
@@ -71,7 +70,8 @@ export default function WhySection() {
               Ready to see RESTRO in action?
             </p>
             <p className="text-[14px] text-white/45">
-              Book a free demo and we&apos;ll walk you through the full platform in 30 minutes.
+              Book a free demo and we&apos;ll walk you through table management, reservations,
+              order operations, and reporting in one complete platform tour.
             </p>
           </div>
           <a

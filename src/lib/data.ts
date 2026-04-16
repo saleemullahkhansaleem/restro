@@ -8,9 +8,9 @@ export const NAV_LINKS = [
 
 // ─── HERO STATS ───────────────────────────────────────────────────────────────
 export const HERO_STATS = [
-  { value: '9+',    label: 'Core modules' },
+  { value: '9+',    label: 'Core feature modules' },
   { value: '24/7',  label: 'Technical support' },
-  { value: '100%',  label: 'Cloud-based' },
+  { value: '100%',  label: 'Cloud-based platform' },
 ]
 
 // ─── TABLE STATUS DATA (hero floor view) ──────────────────────────────────────
@@ -81,20 +81,20 @@ export const FEATURES: Feature[] = [
     number: '03',
     icon: '📱',
     title: 'Order Management System',
-    description: 'Tablet-based ordering with real-time updates, customizations, and flexible billing options.',
+    description: 'Mobile and tablet-based ordering with real-time updates, customizations, and flexible billing options.',
     bullets: [
       'Mobile/tablet-based ordering',
       'Real-time order updates',
-      'Add-ons, customization & instructions',
+      'Add-ons, customization & special instructions',
       'Split bill & merge bill options',
-      'Course-wise (Starter / Main / Dessert) ordering',
+      'Course-wise ordering (Starter / Main / Dessert)',
     ],
   },
   {
     number: '04',
     icon: '💳',
     title: 'POS & Billing',
-    description: 'Fast, secure checkout with multi-payment support, taxes, discounts, and digital receipts.',
+    description: 'Fast and secure checkout with multiple payment options, taxes, service charges, discounts, and digital receipts.',
     bullets: [
       'Quick and secure checkout',
       'Multiple payment options',
@@ -107,13 +107,13 @@ export const FEATURES: Feature[] = [
     number: '05',
     icon: '🍳',
     title: 'Kitchen Display System (KDS)',
-    description: 'Replace paper tickets with a live kitchen screen that minimizes errors and preparation delays.',
+    description: 'Real-time kitchen order display with color-coded timing and item-level notes to reduce preparation delays.',
     bullets: [
       'Real-time order display',
-      'Colour-coded order times',
+      'Colour-coded order timing',
       'Item-level notes for chefs',
-      'Completed order updates',
-      'Minimized preparation delays',
+      'Completed order tracking',
+      'Reduced preparation delays',
     ],
   },
   {
@@ -132,7 +132,7 @@ export const FEATURES: Feature[] = [
     number: '07',
     icon: '👥',
     title: 'Staff & CRM Management',
-    description: 'Control access levels, track customer preferences, and run loyalty programmes from one dashboard.',
+    description: 'Manage staff access levels, customer preferences, loyalty programs, and feedback from one dashboard.',
     bullets: [
       'Staff accounts & access levels',
       'Customer history & preferences',
@@ -157,13 +157,18 @@ export const FEATURES: Feature[] = [
     number: '09',
     icon: '🔗',
     title: 'QR Code & Integrations',
-    description: 'Contactless QR ordering plus seamless hardware and third-party integrations out of the box.',
+    description: 'Enable QR-powered guest experiences and connect RESTRO with your full restaurant tech stack.',
     bullets: [
-      'QR-based digital menu & table check-in',
-      'Customer self-ordering & online payments',
-      'Payment gateways & SMS/Email providers',
-      'Thermal printers & KDS screens',
-      'Tablets & POS stations',
+      'QR-based digital menu',
+      'QR table check-in',
+      'Customer self-ordering',
+      'Digital receipts',
+      'Online payments',
+      'Payment gateways',
+      'SMS/Email providers',
+      'Thermal printers',
+      'Kitchen Display Screens (KDS)',
+      'Tablets & POS systems',
     ],
   },
 ]
@@ -179,47 +184,47 @@ export const WHY_CARDS: WhyCard[] = [
   {
     icon: '⚡',
     title: 'Built for fast-paced F&B',
-    description: 'Every workflow is optimized for the speed of restaurant service — from order entry to billing in seconds.',
-  },
-  {
-    icon: '📡',
-    title: 'Cloud-based & always on',
-    description: 'Reliable cloud infrastructure means your data is always accessible, backed up, and secure from any device.',
+    description: 'Designed for high-volume food and hospitality operations where speed and reliability are critical.',
   },
   {
     icon: '🏢',
     title: 'Scales with your business',
-    description: 'Equally powerful for a single café or a multi-branch chain — RESTRO grows as your business grows.',
+    description: 'Ideal for single branches and large multi-branch chains with flexible growth support.',
+  },
+  {
+    icon: '🔧',
+    title: '24/7 technical support',
+    description: 'Round-the-clock support from the Creative Garage team to keep operations running smoothly.',
   },
   {
     icon: '🎨',
     title: 'Modern UI for your team',
-    description: 'Designed for real users — intuitive enough that staff training takes hours, not days.',
-  },
-  {
-    icon: '🔧',
-    title: 'Fully customizable',
-    description: 'Configure RESTRO around your brand, menu structure, floor layout, and reporting needs.',
+    description: 'Clean, intuitive UI/UX for staff and management to reduce training time and errors.',
   },
   {
     icon: '🛡️',
-    title: '24/7 technical support',
-    description: 'Our team is available around the clock to ensure your operations are never interrupted.',
+    title: 'Secure and reliable infrastructure',
+    description: 'Cloud architecture built for uptime, data security, and dependable day-to-day service continuity.',
+  },
+  {
+    icon: '⚙️',
+    title: 'Fully customizable',
+    description: 'Adapt workflows, menus, pricing, and operational settings to your specific business model.',
   },
 ]
 
 // ─── PRICING ──────────────────────────────────────────────────────────────────
 export const MONTHLY_ITEMS = [
-  { name: 'RESTRO System License',  price: 'PKR 25,000 / mo' },
-  { name: 'Mobile App (Add-on)',     price: 'PKR 5,000 / mo' },
-  { name: 'Server Hosting',          price: 'PKR 2,000 / mo' },
+  { name: 'RESTRO System License',         price: 'PKR 25,000 / month' },
+  { name: 'Mobile Application (Add-on)',   price: 'PKR 5,000 / month' },
+  { name: 'Server Hosting Charges',        price: 'PKR 2,000 / month' },
 ]
 
 export const SETUP_INCLUDES = [
-  'System setup & configuration',
-  'Staff training sessions',
-  'Deployment & go-live support',
-  'Full onboarding assistance',
+  'System setup',
+  'Configuration',
+  'Staff training',
+  'Deployment',
 ]
 
 // ─── CONTACT ─────────────────────────────────────────────────────────────────
@@ -234,5 +239,5 @@ export const DEMO_OPTIONS = [
   'Full RESTRO Demo',
   'Pricing Information',
   'Custom / Multi-branch Setup',
-  'Technical Questions',
+  'Technical Support Questions',
 ]

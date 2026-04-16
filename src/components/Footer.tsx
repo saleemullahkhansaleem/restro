@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { NAV_LINKS } from '@/lib/data'
 
 export default function Footer() {
@@ -9,14 +10,13 @@ export default function Footer() {
 
         {/* Brand */}
         <a href="#" className="flex items-center gap-3">
-          {/*
-            LOGO PLACEHOLDER
-            Replace with:
-              <Image src="/logo-white.svg" alt="RESTRO" width={120} height={32} />
-          */}
-          <div className="w-8 h-8 rounded-[9px] bg-brand-500/30 border border-brand-400/20 flex items-center justify-center">
-            <span className="font-display font-black text-[11px] text-white/80 tracking-tight">CG</span>
-          </div>
+          <Image
+            src="/logo.svg"
+            alt="RESTRO by Creative Garage"
+            width={36}
+            height={36}
+            className="w-9 h-9"
+          />
           <span className="font-display font-black text-[18px] text-white tracking-tight">
             REST<span className="text-brand-300">RO</span>
           </span>
@@ -45,7 +45,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="text-[12px] text-white/25">
-          © {year} Creative Garage Pvt. Ltd. All rights reserved.
+          © {year} Creative Garage. All rights reserved.
         </p>
       </div>
     </footer>
