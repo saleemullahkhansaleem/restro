@@ -1,12 +1,13 @@
 import type { Metadata } from 'next'
-import { DM_Sans, Syne } from 'next/font/google'
+import { DM_Sans, Plus_Jakarta_Sans } from 'next/font/google'
 import './globals.css'
 
-const fontSyne = Syne({
+const fontDisplay = Plus_Jakarta_Sans({
   subsets: ['latin'],
-  variable: '--font-syne',
+  variable: '--font-plus-jakarta',
   display: 'swap',
   weight: ['400', '500', '600', '700', '800'],
+  style: ['normal', 'italic'],
 })
 
 const fontDmSans = DM_Sans({
@@ -45,7 +46,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${fontSyne.variable} ${fontDmSans.variable}`}
+      className={`${fontDisplay.variable} ${fontDmSans.variable}`}
       suppressHydrationWarning
     >
       <body className="antialiased">{children}</body>
